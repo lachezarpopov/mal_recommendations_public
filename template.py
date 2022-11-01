@@ -7,8 +7,8 @@ import pandas as pd
 import numpy as np
 from time import sleep
 
-# You would have to set the value of 'X-MAL-CLIENT-ID' to a MyAnimeList API client ID for the script to work
-headers = {'X-MAL-CLIENT-ID': ''}
+
+headers = {'X-MAL-CLIENT-ID': st.secrets["client_id_secret"]}
 
 
 def get_clubs(mal_username):
