@@ -50,7 +50,6 @@ jupyterlab-pygments==0.1.2
 jupyterlab-widgets==1.0.2
 kiwisolver==1.3.2
 langcodes==3.3.0
-malclient==0.1.5
 MarkupSafe==2.0.1
 matplotlib==3.5.1
 matplotlib-inline==0.1.3
